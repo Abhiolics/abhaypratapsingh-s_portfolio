@@ -208,7 +208,7 @@ export const workExperience = [
   {
     id: 4,
     title: "Web Content Writer",
-    comp: "Geeks for",
+    comp: "Geeks for Geeks",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
