@@ -26,12 +26,12 @@ const Hero = () => {
 
             <div className='flex justify-center relative my-20 z-10 '>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                    <h1 className='uppercase traking-widest text-xs text-center text-blue-100 max-w-80 tracking-wider'>Welcome, Anaonymus</h1>
+                    <h1 className='uppercase traking-widest text-md text-center max-w-80 tracking-wider rounded-full px-4 py-1 text-green-500 font-semibold animate-pulse '>&#x2022; Open to Work</h1>
                     <TextGenerateEffect
                         className='text-center text-[40px] md:text-5xl lg:text-6xl'
                         words='Turning ideas into intuitive experiences' />
-                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I&apos;m <span className='text-3xl text-orange-500'> Abhay </span>, a <span className='text-lg text-purple'>Frontend Developer & Product Designer </span>based in lucknow,India.
+                    <p className='text-center md:tracking-wider mb-4 text-lg md:text-lg lg:text-2xl'>
+                        Hello, I&apos;m <span className='text-3xl text-orange-500'> Abhay </span>, a young <span className='text-2xl font-bold text-orange-500'>Frontend Developer & Product Designer </span>based in Lucknow,India.
                     </p>
                     <Link href="#about">
                         <MagicButton title="Show my work"

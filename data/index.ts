@@ -8,12 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/5757453.jpg",
     spareImg: "",
   },
   {
@@ -38,8 +38,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "A learner, Designer & Developer.",
+    description: "abhiolics",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -50,11 +50,11 @@ export const gridItems = [
   {
     id: 5,
     title: "Currently building Assistify Studio",
-    description: "We help you in your Brand Design, Web Design...",
+    description: "Assistify helps in Brand Design, Web Design...",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute items-center right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/assist.png",
     spareImg: "/grid.svg",
   },
   {
@@ -67,16 +67,16 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
-    id: 7,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "md:col-span-2 md:row-span-2 w-full",
-    imgClassName: "absolute md:w-full w-full",
-    titleClassName: "justify-center md:justify-start lg:justify-cente",
-    img: "/b5.svg",
-    spareImg: "",
-  },
+  // {
+  //   id: 7,
+  //   title: "Do you want to start a project together?",
+  //   description: "",
+  //   className: "md:col-span-2 md:row-span-2 w-full",
+  //   imgClassName: "absolute md:w-full w-full",
+  //   titleClassName: "justify-center md:justify-start lg:justify-cente",
+  //   img: "/b5.svg",
+  //   spareImg: "",
+  // },
 ];
 
 export const projects = [
@@ -117,64 +117,64 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Great guy, great vision and great enthusiasm for his craft. Would love to see you rise and shine and achieve all your goals man.",
+    name: "Anuj Diwedi",
+    title: "Senior UI/UX Designer at CodSoft",
+  },
+  {
+    quote:
+      "I enjoyed collaborating with Abhay; he was both cooperative and communicative. He attentively considered my ideas while offering valuable insights, ultimately enhancing the final design. His assurance and supportive demeanor contributed to a successful partnership.",
+    name: "Alok Dubey",
+    title: "Senior Full Stack Developer ",
+  },
+  {
+    quote:
+      "I enjoyed working with Abhay. He has an eye for design details and was confident in his skills. He listened to my ideas and provided valuable input. Overall, I'm happy with the work he product with me.",
+    name: "Shubham Pandey",
+    title: "Founder of Papaya Coders",
+  },
+  {
+    quote:
+      "Abhay's creativity and problem-solving skills left me impressed. As someone passionate about visualizing design concepts, I greatly appreciated his patience and continuous support throughout the process.",
+    name: "Michael Johmson",
+    title: "Director of AlphaX Technologies",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Vaibhav Tirpathi",
+    title: "Director of Ventex Technologies",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "Figma",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "React.JS",
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "Next.Js",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
+    name: "Tailwind CSS",
     img: "/s.svg",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
+    name: "Photoshop",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },

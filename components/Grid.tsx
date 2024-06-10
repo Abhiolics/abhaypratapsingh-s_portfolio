@@ -5,7 +5,7 @@ import styles from './ui/Grid.module.css'
 
 const Grid = () => {
   return (
-    <section id='about' className={styles.testFont}>
+    <section id='about' >
         <BentoGrid className="w-full py-20 font-['Space_Grotesk']">
         {gridItems.map((item, i) => (
           <BentoGridItem
