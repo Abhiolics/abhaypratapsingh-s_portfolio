@@ -57,16 +57,16 @@ export const gridItems = [
     img: "/assist.png",
     spareImg: "/grid.svg",
   },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "md:col-span-2 md:row-span-2 w-full",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-cente",
-    img: "",
-    spareImg: "",
-  },
+  // {
+  //   id: 6,
+  //   // title: "Do you want to start a project together?",
+  //   description: "",
+  //   className: "md:col-span-2 md:row-span-2 w-full",
+  //   imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+  //   titleClassName: "justify-center md:justify-start lg:justify-cente",
+  //   img: "",
+  //   spareImg: "",
+  // },
   // {
   //   id: 7,
   //   title: "Do you want to start a project together?",
@@ -84,9 +84,9 @@ export const projects = [
     id: 1,
     title: "Assistify Studio",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    img: "/ogg.svg",
     iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://www.leetcode.com",
   },
   {
     id: 2,
@@ -207,8 +207,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Web Content Writer",
-    comp: "Geeks for Geeks",
+    title: "SDE Intern",
+    comp: "Bluestock Fintech",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -219,14 +219,113 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url:"https:www.github.com/abhiolics.com"
+    url:"https://www.github.com/abhiolics"
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://www.twitter.com/abhiolics"
   },
   {
     id: 3,
     img: "/link.svg",
+    url:"https://www.linkedin.com/in/abhay-pratap-singh-b73297249/"
+  },
+];
+
+
+export const products = [
+  {
+    title: "Moonbeam",
+    link: "https://gomoonbeam.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+  },
+  {
+    title: "Cursor",
+    link: "https://cursor.so",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+  },
+  {
+    title: "Rogue",
+    link: "https://userogue.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+  },
+ 
+  {
+    title: "Editorially",
+    link: "https://editorially.org",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+  },
+  {
+    title: "Editrix AI",
+    link: "https://editrix.ai",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+  },
+  {
+    title: "Pixel Perfect",
+    link: "https://app.pixelperfect.quest",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+  },
+ 
+  {
+    title: "Algochurn",
+    link: "https://algochurn.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+  },
+  {
+    title: "Aceternity UI",
+    link: "https://ui.aceternity.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+  },
+  {
+    title: "Tailwind Master Kit",
+    link: "https://tailwindmasterkit.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+  },
+  {
+    title: "SmartBridge",
+    link: "https://smartbridgetech.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+  },
+  {
+    title: "Renderwork Studio",
+    link: "https://renderwork.studio",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+  },
+ 
+  {
+    title: "Creme Digital",
+    link: "https://cremedigital.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+  },
+  {
+    title: "Golden Bells Academy",
+    link: "https://goldenbellsacademy.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+  },
+  {
+    title: "Invoker Labs",
+    link: "https://invoker.lol",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+  },
+  {
+    title: "E Free Invoice",
+    link: "https://efreeinvoice.com",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
   },
 ];

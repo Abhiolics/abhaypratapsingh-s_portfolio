@@ -2,14 +2,16 @@
 
 import { FaLocationArrow } from "react-icons/fa6";
 
-import { projects } from "@/data";
+import { navItems, projects } from "@/data";
 import { PinContainer } from "./ui/PinContainer";
+import Link from "next/link";
+import { link } from "fs";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-2" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
+        A small section of my{" "}
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
@@ -20,7 +22,7 @@ const RecentProjects = () => {
           >
             <PinContainer
               title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              href="https.www.leetcode.com"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -66,9 +68,9 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                 <Link href={item.link} target="blank"><p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
-                  </p>
+                  </p> </Link> 
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>

@@ -18,11 +18,11 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Ready to take your digital
+          presence to the <span className="text-[#8b5cf6] "> next level?</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
+          Reach out to me today and let&apos;s discuss how I can help you to
           achieve your goals.
         </p>
         <a href="mailto:abhiolics@gmail.com">
@@ -33,9 +33,9 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light mb-2">
-          Copyright © 2024 Abhay Pratap Singh
+      <div className="flex mt-16 mb-6 md:flex-row flex-col justify-between items-center">
+        <p className="md:text-base text-sm md:font-normal  font-light mb-2">
+        Created with bugs, laughs & &#128155; by <span className="text-teal-500  text-sm md:font-medium   mb-2">Abhay Pratap Singh</span> 
         </p>
 
         <div className="flex items-center md:gap-3 sm:gap-6 gap-6">
@@ -44,9 +44,9 @@ const Footer = () => {
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              
+              <a href={info.url} target="blank">   
               <img src={info.img} alt="icons" width={20} height={20} />
-              
+              </a>   
             </div>
           ))}
         </div>
