@@ -23,7 +23,7 @@ export default function LampDemo() {
    
         <img src="./ProfileA.jpg" className="w-[200px] rounded-md" alt=""  />
      
-        <p className="text-[20px] font-light lg:text-[20px] text-white ">Hey I'm Abhay Pratap Singh,
+        <p className="text-[20px] font-light lg:text-[20px] text-white ">Hey I&apos;m Abhay Pratap Singh,
 Currently, I am pursuing B.Tech in Computer Science, now in my 5th semester at Shri Ramswaroop Memorial University, Lucknow.
  My journey in tech began somewhat aimlessly until I had a pivotal realization in my first year that set me on a path of self-improvement.
 <br />In my 3rd semester, I got my laptop and dove into learning Java and Web development. This ignited my passion for frontend development, particularly in designing websites/apps and products. To enhance my skills bit more, I learned Figma for UI/UX design and started solving DSA problems on LeetCode for sustain in rat race.

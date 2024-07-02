@@ -38,7 +38,7 @@ const Hero = () => {
                         Hello, I&apos;m <span className='text-3xl text-orange-500'> Abhay </span>, a young <span className='text-2xl font-bold text-orange-500'>Frontend Developer & Product Designer </span>based in Lucknow,India.
                     </p> */}
                     <div className="text-3xl lg:text-3xl  mx-auto traking-widest justify-start font-thin text-neutral-300 dark:text-neutral-200">
-        Hello I'm <br />
+        Hello I&apos;m <br />
         <span className='text-7xl text-left font-semibold mb-4'>Abhay Pratap Singh,</span><br />
         <div className='text-3xl p-4'>
          in &#128155; with &nbsp;
