@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function LampDemo() {
   return (
-    <div className="p-10">
-      <h1 className="text-4xl font-bold text-center bg-transparent mb-6 mt-6">
+    <div className="p-10 ">
+      <h1 className="text-4xl font-bold text-center bg-transparent mb-6 mt-16">
         Get to <span className="font-bold text-[#8b5cf6]">Know Me</span>
         <span className="inline-block mx-2">
           <Image
@@ -31,7 +31,7 @@ export default function LampDemo() {
           className="mt-8 p-4 flex gap-5 flex-col lg:flex-row sm:flex-col justify-center items-center text-gray-300 py-4 bg-clip-text text-center text-4xl font-medium text-transparent md:text-7xl"
         >
           <Image src="/ProfileA.jpg" width={200} height={200} alt="Profile" />
-          <p className="text-base sm:text-lg  md:text-xl lg:text-[20px] text-white font-light">
+          <p className="text-base sm:text-lg md:text-xl lg:text-[20px] text-white font-light">
             Hey I&apos;m Abhay Pratap Singh,
             Currently, I am pursuing B.Tech in Computer Science, now in my 5th semester at Shri Ramswaroop Memorial University, Lucknow.
             My journey in tech began somewhat aimlessly until I had a pivotal realization in my first year that set me on a path of self-improvement.

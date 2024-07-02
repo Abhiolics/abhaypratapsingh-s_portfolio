@@ -2,64 +2,81 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+import Image from "next/image";
 
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-[#8b5cf6]">Approach</span>
+      <h1 className="heading flex justify-center items-center gap-3 ">
+        My <span className="text-[#8b5cf6]">Approach</span>      <Image
+            src="/3dd.svg"
+            width={80}
+            height={50}
+            alt="emoji"
+            className="inline-block justify-center align-middle"
+          />
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add description prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
-        >
-          <CanvasRevealEffect
-            animationSpeed={5.1}
-            // add these classes for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
-          />
-        </Card>
-        <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
-            colors={[
-              // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
-            ]}
-            dotSize={2}
-          />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
-        </Card>
-        <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
-          />
-        </Card>
+  title="Initial Consultation & Requirement Analysis"
+  icon={<AceternityIcon order="Phase 1" />}
+  description="Conduct a comprehensive consultation to understand your website's objectives, audience, and desired functionalities. Analyze requirements to lay a solid foundation for development."
+>
+  <CanvasRevealEffect
+    animationSpeed={5.1}
+    containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+  />
+</Card>
+
+<Card
+  title="Design & Prototype Development"
+  icon={<AceternityIcon order="Phase 2" />}
+  description="Transform concepts into detailed prototypes, ensuring alignment with user needs and business goals. Provide iterative updates and incorporate feedback to refine designs."
+>
+  <CanvasRevealEffect
+    animationSpeed={3}
+    containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+    colors={[
+      [255, 166, 158],
+      [221, 255, 247],
+    ]}
+    dotSize={2}
+  />
+</Card>
+
+<Card
+  title="Coding & Feature Implementation"
+  icon={<AceternityIcon order="Phase 3" />}
+  description="Develop the website using cutting-edge technologies and best practices. Implement features meticulously, ensuring functionality, performance, and scalability."
+>
+  <CanvasRevealEffect
+    animationSpeed={3}
+    containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+    colors={[
+      [255, 166, 158],
+      [221, 255, 247],
+    ]}
+    dotSize={2}
+  />
+</Card>
+
+<Card
+  title="Quality Assurance & User Testing"
+  icon={<AceternityIcon order="Phase 4" />}
+  description="Perform rigorous testing to identify and resolve issues, ensuring a seamless user experience. Conduct user testing sessions to gather feedback and make necessary adjustments."
+>
+  <CanvasRevealEffect
+    animationSpeed={3}
+    containerClassName="bg-blue-900 rounded-3xl overflow-hidden"
+    colors={[
+      [200, 200, 255],
+      [180, 255, 220],
+    ]}
+    dotSize={2}
+  />
+</Card>
       </div>
     </section>
   );

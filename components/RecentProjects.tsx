@@ -6,13 +6,20 @@ import { navItems, projects } from "@/data";
 import { PinContainer } from "./ui/PinContainer";
 import Link from "next/link";
 import { link } from "fs";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
     <div className="py-2" id="projects">
       <h1 className="heading">
         A small section of my{" "}
-        <span className="text-[#8b5cf6]">Recent Projects</span>
+        <span className="text-[#8b5cf6]">Recent Projects</span>     <Image
+            src="/pro.svg"
+            width={80}
+            height={50}
+            alt="emoji"
+            className="inline-block justify-center align-middle"
+          />
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (

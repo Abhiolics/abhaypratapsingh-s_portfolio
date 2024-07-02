@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -20,7 +21,13 @@ const Footer = () => {
         <h1 className="heading lg:max-w-[45vw]">
           Ready to take your digital
           presence to the <span className="text-[#8b5cf6] "> next level?</span>
-        </h1>
+        </h1>      <Image
+            src="/foot.svg"
+            width={80}
+            height={50}
+            alt="emoji"
+            className="inline-block justify-center align-middle"
+          />
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you to
           achieve your goals.

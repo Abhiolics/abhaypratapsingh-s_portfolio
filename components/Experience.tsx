@@ -3,12 +3,19 @@ import React from "react";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 import Link from "next/link";
+import Image from "next/image";
 
 const Experience = () => {
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
-        My <span className="text-[#8b5cf6]">Work Experience</span>
+        My <span className="text-[#8b5cf6]">Work Experience</span>      <Image
+            src="/exp.svg"
+            width={80}
+            height={50}
+            alt="emoji"
+            className="inline-block justify-center align-middle"
+          />
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
