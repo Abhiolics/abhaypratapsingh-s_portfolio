@@ -31,7 +31,7 @@ const Hero = () => {
             <div className='flex justify-center relative my-20 z-10 '>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col  justify-center'>
                     <div className='flex items-center justify-center'>
-                    <h1 className='uppercase  mb-16 traking-widest text-md text-center max-w-80 tracking-wider rounded-full px-4 py-1 text-green-500 font-semibold animate-pulse '>&#x2022; Open to Work</h1>
+                    <h1 className='uppercase  mb-16 traking-widest text-md text-center max-w-80 tracking-wider rounded-full px-4 py-1 text-[#45ff42] font-semibold animate-pulse '>&#x2022; Open to Work</h1>
                     </div>
                
                     {/* <p className='text-center md:tracking-wider mb-4 text-lg md:text-lg lg:text-2xl'>

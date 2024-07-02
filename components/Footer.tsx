@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 mb-6 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal  font-light mb-2">
-        Created with bugs, laughs & &#128155; by <span className="text-teal-500  text-sm md:font-medium   mb-2">Abhay Pratap Singh</span> 
+        Created with bugs, laughs & &#128155; by <span className="text-[#45ff42] md:text-base text-sm md:font-normal  font-light   mb-2">Abhay Pratap Singh</span> 
         </p>
 
         <div className="flex items-center md:gap-3 sm:gap-6 gap-6">
