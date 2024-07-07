@@ -82,11 +82,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "AI Interview Mocker",
+    title: "AI Interview Mocker (Currently Working)",
     des: "AI Interview Mocker simulates real-life interview scenarios, leveraging advanced AI to provide personalized feedback and improve your interview skills. Ideal for job seekers looking to boost their confidence and performance.",
-    img: "/ogg.svg",
+    img: "https://img.freepik.com/free-vector/robot-vs-human-flat-vector-illustration-robotic-machine-tired-woman-working-computer-office-humanoid-versus-person-artificial-intelligence-challenging-employee-modern-ai-technology_88138-552.jpg?t=st=1720330286~exp=1720333886~hmac=92dc1a409d91279345888f8100e60cbcda889ad3b18c80811f41aef0bb7b9488&w=900",
     iconLists: ["/re.svg", "/tail.svg", "/fm.svg","/c.svg","/vercel.svg",],
-    link: "https://www.leetcode.com",
+    link: "/",
   },
   {
     id: 2,
@@ -94,23 +94,23 @@ export const projects = [
     des: "Organizerr is a streamlined task manager designed to boost productivity by helping you efficiently organize, prioritize, and track your daily tasks. Perfect for professionals and students seeking a more organized and productive workflow.",
     img: "/ogg.svg",
     iconLists: ["/re.svg", "/tail.svg","/next.svg",],
-    link: "/ui.yoom.com",
+    link: "https://organizerr.vercel.app/",
   },
   {
     id: 3,
     title: "Assistify Studio",
     des: "Assistify Studio specializes in brand development, offering services in logo design, graphic design, and web redesign. We help businesses create impactful and cohesive visual identities to drive growth and engagement.",
-    img: "/p3.svg",
+    img: "/ass.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://assistifystudio.vercel.app/",
   },
   {
     id: 4,
-    title: "Nike UI Website",
-    des: "Nike UI website, built with Next.js and Tailwind CSS, offers a sleek and responsive design that mirrors Nike's brand aesthetics. This project showcases modern frontend technologies to create an engaging user experience.",
+    title: "IMDB Website Redesigned (Currently Working)",
+    des: "IMDB UI website, built with Next.js and Tailwind CSS, offers a sleek and responsive design that mirrors Nike's brand aesthetics. This project showcases modern frontend technologies to create an engaging user experience.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
-    link: "/ui.apple.com",
+    link: "/",
   },
 ];
 
@@ -132,12 +132,6 @@ export const testimonials = [
       "I enjoyed working with Abhay. He has an eye for design details and was confident in his skills. He listened to my ideas and provided valuable input. Overall, I'm happy with the work he product with me.",
     name: "Shubham Pandey",
     title: "Founder of Papaya Coders",
-  },
-  {
-    quote:
-      "Abhay's creativity and problem-solving skills left me impressed. As someone passionate about visualizing design concepts, I greatly appreciated his patience and continuous support throughout the process.",
-    name: "Michael Johmson",
-    title: "Director of AlphaX Technologies",
   },
   {
     quote:
@@ -185,7 +179,7 @@ export const workExperience = [
     id: 1,
     title: "SDE Intern",
     comp: "Bluestock Fintech",
-    desc: "I Contributed to the development of scalable web applications using  React, Next.js, Tailwind CSS, Bootstrap and JavaScript, collaborating closely with senior developers to optimize performance and resolve intricate technical challenges. Through agile methodologies and meticulous version control, I gained valuable experience in delivering robust software solutions.",
+    desc: " Led a team in the development of an IPO Web Application and REST API, driving project vision and execution from inception to completion, Developed and implemented a comprehensive project roadmap, ensuring alignment with business objectives and stakeholder requirements. Worked closely with frontend developers, designers, and stakeholders to deliver a cohesive and user-centric application.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
